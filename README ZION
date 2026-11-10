@@ -1,0 +1,28 @@
+# FarmConnect Frontend - KITUNZI ZION MUKISA M26B13/019
+
+Original: https://github.com/Musasizi/farmconnect-frontend
+My Fork: https://github.com/zionkits170-sudo/farmconnect-frontend
+
+## Setup for Lecturer
+
+1. git clone https://github.com/zionkits170-sudo/farmconnect-frontend.git
+2. cd farmconnect-frontend
+3. npm install
+4. cp .env.example .env
+5. Edit .env: VITE_API_URL=http://localhost:5000/api
+6. npm run dev -> http://localhost:5173
+
+## New Features Added (M26B13/019)
+
+1. Database-backed Favourites - persists across browsers via /api/favorites
+2. Ratings & Reviews - star rating 1-5 via /api/reviews/product/:id
+3. Advanced Search & Filtering - search, category, price filters via query params
+
+## Original Workflow Verified
+- Login with seeded user
+
+- Browse products from local API
+- View product details
+
+Student: KITUNZI ZION MUKISA M26B13/019
+GitHub: zionkits170-sudo
