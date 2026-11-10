@@ -1,9 +1,10 @@
 # FarmConnect Frontend
-
+import Favorites from "./pages/Favorites";
+import SearchBar from "./components/SearchBar";
 FarmConnect Frontend is the React and Vite web application for farmers, buyers, and admins using the FarmConnect backend API. It includes public product browsing, authentication, protected dashboards, role-based routes, Axios API services, Bootstrap styling, and JWT storage in `localStorage`.
 
 ## Tech Stack
-
+<Route path="/favorites" element={<Favorites />} />
 - ReactJS with Vite
 - React Router
 - Axios
